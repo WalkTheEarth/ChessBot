@@ -1,0 +1,30 @@
+# ChessBot - AI Chess Engine Trainer
+# Core dependencies for training neural networks to play chess
+
+# Deep Learning Framework
+torch>=1.9.0
+torchvision>=0.10.0
+torchaudio>=0.9.0
+
+# Chess and Game Logic
+python-chess>=1.9.0
+stockfish>=3.28.0
+
+# Numerical Computing
+numpy>=1.21.0
+
+# Terminal UI and Progress Display
+rich>=10.0.0
+
+# GUI Dependencies (for play_chess.py)
+Pillow>=8.0.0
+cairosvg>=2.5.0
+
+# Optional: For better performance
+# Uncomment if you have CUDA-capable GPU
+# torch>=1.9.0+cu118 -f https://download.pytorch.org/whl/torch_stable.html
+
+# Development Dependencies (optional)
+# pytest>=6.0.0
+# black>=21.0.0
+# flake8>=3.9.0
